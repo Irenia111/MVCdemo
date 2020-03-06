@@ -1,0 +1,33 @@
+.page4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.change{
+    border-left:solid 40px green;
+    border-top:solid 40px black;
+    border-right:solid 40px green;
+    border-bottom:solid 40px black;
+    border-radius: 50%;
+}
+
+@keyframes colorchange {
+
+    0%,20%{
+        border-left:solid 40px orange;
+        border-top:solid 40px deepskyblue;
+        border-right:solid 40px orange;
+        border-bottom:solid 40px deepskyblue;
+    }
+    80%,100% {
+        border-left:solid 40px deepskyblue;
+        border-top:solid 40px orange;
+        border-right:solid 40px deepskyblue;
+        border-bottom:solid 40px orange;
+    }
+
+}
+.change.active{
+    animation: colorchange 2s infinite alternate linear;
+}

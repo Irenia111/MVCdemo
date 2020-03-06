@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box; padding:0; border:0;margin:0;
+}
+*:before,*:after{
+    box-sizing: border-box; padding:0; border:0;margin:0;
+}
+body{display:flex; flex-flow: row;flex-wrap: wrap;}
+.page{
+    border: black solid 1px;
+    height:50vh;width:50vw;
+}
+
+ul li{list-style: none;}

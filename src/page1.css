@@ -1,0 +1,23 @@
+.page1{display: flex; flex-flow: column; }
+.page1 .view{
+    flex:3;
+    display: flex;justify-content: center;align-items: center;
+
+    font-size: 30px;
+
+    border:red solid 1px; background: aqua;
+    margin: 10% auto 0 auto;
+    width:70%;
+    height:20%;
+}
+
+.page1 .buttonlist{
+    flex:1;
+    display:flex; flex-flow: row;
+    margin:10% auto;
+    width:70%;
+    height:10%;
+}
+.page1 .buttonlist >button{
+    flex:1; margin:5px;font-size: 20px;
+}

@@ -1,0 +1,16 @@
+.page3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wave{
+    border-left:solid 20px red;
+    border-top:solid 20px orange;
+    border-right:solid 20px green;
+    border-bottom:solid 20px blue;
+}
+
+.wave.active{
+    transform: translateX(70px);
+}
